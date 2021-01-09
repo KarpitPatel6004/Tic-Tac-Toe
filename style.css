@@ -1,0 +1,105 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(199, 199, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.game--title {
+    background-color: black;
+    font-family: monospace;
+    padding: 40px;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+
+.leadercell {
+    width: 150px;
+    box-shadow: 0 0 0 1px #0f0d0d;
+    cursor: pointer;
+    padding: 25px 0px ;
+    border: 1px black solid;
+    font-size: 20px;
+}
+
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0 0 1px #0f0d0d;
+    border: 2px solid #0f0d0d;
+    cursor: pointer;
+    line-height: 150px;
+    font-size: 80px;
+    margin: 3px;
+}
+
+.gameleadercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mybtn{
+    background-color:black;
+    padding: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: 1px white solid;
+}
+
+.mybtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+caption{
+ font-size: 30px;
+ margin-bottom: 10px;
+}
+
+
+.red{
+    font-size: 40px;
+    color: red;
+}
+
+.red1{
+    font-size: 25px;
+    color: red;
+}
+
+
+.game--status {
+    
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
